@@ -7,9 +7,9 @@
 ## Angular ##
 # compiled output
 /dist
+/dist-server
 /tmp
-/app/**/*.js
-/app/**/*.js.map
+/out-tsc
 
 # dependencies
 /node_modules
@@ -17,6 +17,12 @@
 
 # IDEs and editors
 /.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # misc
 /.sass-cache
@@ -24,13 +30,13 @@
 /coverage/*
 /libpeerconnection.log
 npm-debug.log
+yarn-error.log
 testem.log
 /typings
 
 # e2e
 /e2e/*.js
 /e2e/*.map
-/e2e/*
 
 #System Files
 .DS_Store
